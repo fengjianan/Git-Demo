@@ -18,7 +18,7 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore C:\Users\Kim.Feng\OneDrive - Solera Holdings, Inc\Desktop\Git-Demo\Bootcamp-API\Bootcamp-API.sln
     - name: Build
       run: dotnet build --no-restore
     - name: Test
