@@ -18,8 +18,8 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore dependencies
-      run: dotnet restore C:\Users\Kim.Feng\OneDrive - Solera Holdings, Inc\Desktop\Git-Demo\Bootcamp-API\Bootcamp-API.sln
+      run: dotnet restore Bootcamp-API\Bootcamp-API.sln
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build Bootcamp-API\Bootcamp-API.sln --no-restore 
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test Bootcamp-API\Bootcamp-API.sln --no-build --verbosity normal 
