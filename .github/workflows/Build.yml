@@ -2,9 +2,9 @@ name: Bootcamp_Test_Workflow
  
 on:
   push:
-    branches: [ breakfast ]
+    branches: [ main ]
   pull_request:
-    branches: [ breakfast ]
+    branches: [ main ]
  
 jobs:
   build:
