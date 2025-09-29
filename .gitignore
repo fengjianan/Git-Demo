@@ -1,0 +1,7 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/Bootcamp-API/.vs/Bootcamp-API
+/Bootcamp-API/bin/Debug/net8.0
+/Bootcamp-API/obj
